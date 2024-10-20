@@ -1,0 +1,67 @@
+body {
+    font-family: Poppins, sans-serif;
+    background-color: cream;
+}
+
+header {
+    background-color: brown;
+    color: 	#fffdd0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+   
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: 	#fffdd0;
+}
+
+.right-nav {
+    float: right;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: brown;
+    color: 	#fffdd0;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: brown;
+    color: 	#fffdd0;
+    border: none;
+    cursor: pointer;
+}
+
+#results {
+    margin-top: 20px;
+}
